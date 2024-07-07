@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practical_2/Assingment1.dart';
+import 'package:practical_2/Assingment2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       
       
-      home: Assingment1(),
+      home: Assingment2(),
     );
   }
 }
