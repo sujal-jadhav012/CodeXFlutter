@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practical_2/Assingment5.dart';
+import 'package:practical_2/Assingment6.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       
       
-      home:Assignment5(),
+      home:Assignment6(),
     );
   }
 }
