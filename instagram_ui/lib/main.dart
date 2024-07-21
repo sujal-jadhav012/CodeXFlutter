@@ -1,11 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practiacl_5/Assimngment2.dart';
-import 'package:practiacl_5/Assingment1.dart';
-import 'package:practiacl_5/Assingment4.dart';
-import 'package:practiacl_5/Assingment5.dart';
-import 'package:practiacl_5/Assingment6.dart';
-import 'package:practiacl_5/Assingment7.dart';
-import 'package:practiacl_5/Assingnment3.dart';
+import 'package:instagram_ui/insta_1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,13 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-       home:Assignment1(),
-      // home: Assignment2(),
-      // home: Assignment3(),
-      // home: Assignment4(),
-      // home: Assignment5(),
-      // home: Assignment6(),
-      // home: Assignment7(),
+      home:insta_1(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
