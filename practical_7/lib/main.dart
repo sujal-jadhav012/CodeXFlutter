@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:practical_7/listviewEg.dart';
 
+import 'package:practical_7/myContainer.dart';
+import 'package:practical_7/reuseable_function.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -12,7 +15,20 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:listviewEg(),
+      // home: listviewEg(),
+      // home:reuseablefunction(),
+      home: Scaffold(
+        body: Center(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              myContainer(imgUrl: "image/java.jpg",),
+              myContainer(imgUrl: "",),
+              myContainer(imgUrl: ""),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
