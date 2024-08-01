@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practical_9/Assingment1.dart';
-
+import 'package:practical_10/portfolio.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Assingment1(),
+      home: portfolio(),
     );
   }
 }
